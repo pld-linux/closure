@@ -8,6 +8,7 @@ Group:		X11/Applications
 Source0:	http://closure.googlecode.com/files/%{name}-%{version}.tar.gz
 # Source0-md5:	cb32ce710c4a7bc4535eb8daf567b6f6
 Patch0:		%{name}-gconf.patch
+Patch1:     %{name}-bin.patch
 URL:		http://code.google.com/p/closure/
 BuildRequires:	GConf2-devel >= 2.14.0
 BuildRequires:	intltool
@@ -32,6 +33,7 @@ ekranu/wylogowywania/restartowania/wyłączania komputera.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %build
 %configure
