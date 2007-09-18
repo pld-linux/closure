@@ -26,7 +26,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Cloasure is a written with eye candy in mine graphical
 lock/logout/reboot/shutdown menu.
 
-%description -l pl
+%description -l pl.UTF-8
 Cloasure to napisane z myślą o graficzne menu do blokowania
 ekranu/wylogowywania/restartowania/wyłączania komputera.
 
