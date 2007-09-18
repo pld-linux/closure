@@ -1,0 +1,18 @@
+diff -urN closure-0.1.3/bin/closure.in closure-0.1.3.bin/bin/closure.in
+--- closure-0.1.3/bin/closure.in	2007-04-23 23:46:05.000000000 +0200
++++ closure-0.1.3.bin/bin/closure.in	2007-09-18 20:33:23.886392933 +0200
+@@ -1,4 +1,3 @@
+ #!/bin/sh
+-cd ""
+ export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:"
+-exec @PKGLIBDIR@/closure.py "$@"
++exec python @PKGLIBDIR@/closure.pyc "$@"
+diff -urN closure-0.1.3/bin/closure-preferences.in closure-0.1.3.bin/bin/closure-preferences.in
+--- closure-0.1.3/bin/closure-preferences.in	2007-04-23 23:46:05.000000000 +0200
++++ closure-0.1.3.bin/bin/closure-preferences.in	2007-09-18 20:33:37.176593412 +0200
+@@ -1,4 +1,3 @@
+ #!/bin/sh
+-cd ""
+ export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:"
+-exec @PKGLIBDIR@/closure_preferences.py "$@"
++exec python @PKGLIBDIR@/closure_preferences.pyc "$@"
