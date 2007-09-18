@@ -1,0 +1,14 @@
+diff -urN closure-0.1.3/src/Makefile.in closure-0.1.3.new/src/Makefile.in
+--- closure-0.1.3/src/Makefile.in	2007-08-04 23:56:50.000000000 +0200
++++ closure-0.1.3.new/src/Makefile.in	2007-09-18 20:10:50.155972217 +0200
+@@ -506,10 +506,6 @@
+ $(schema_DATA): $(schema_DATA_IN)
+ 	sed -e "s|\@PREFIX\@|$(prefix)|g" $< > $@
+ 
+-install-data-local:
+-	GCONF_CONFIG_SOURCE=$(GCONF_SCHEMA_CONFIG_SOURCE) $(GCONFTOOL) --makefile-install-rule $(srcdir)/$(schema_DATA)
+-	killall -HUP gconfd-2
+-
+ #nodistdir = .
+ #nobase_nodist_pkgpython_PYTHON=common.py
+ #nodist_pkgpython_PYTHON=common.py
