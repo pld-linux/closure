@@ -1,5 +1,5 @@
 Summary:	Fullscreen shutdown/reboot/logout menu
-Summary(pl.UTF8):Pełnoekranowe menu do zamykania/restartowania/wylogowywania
+Summary(pl.UTF8): Pełnoekranowe menu do zamykania/restartowania/wylogowywania
 Name:		closure
 Version:	0.1.3
 Release:	0.1
@@ -23,12 +23,13 @@ Requires(pre,post):	GConf2 >= 2.14.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Cloasure is a written with eye candy in mine graphical
+Closure is a written with eye candy in mine graphical
 lock/logout/reboot/shutdown menu.
 
 %description -l pl.UTF-8
-Cloasure to napisane z myślą o graficzne menu do blokowania
-ekranu/wylogowywania/restartowania/wyłączania komputera.
+Closure to napisane z myślą o upiększeniach graficzne
+menu do blokowania ekranu/wylogowywania/restartowania/
+/wyłączania komputera.
 
 %prep
 %setup -q
