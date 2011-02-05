@@ -1,5 +1,5 @@
 Summary:	Fullscreen shutdown/reboot/logout menu
-Summary(pl.UTF8):	Pełnoekranowe menu do zamykania/restartowania/wylogowywania
+Summary(pl.UTF-8):	Pełnoekranowe menu do zamykania/restartowania/wylogowywania
 Name:		closure
 Version:	0.1.3
 Release:	0.1
